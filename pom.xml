@@ -52,7 +52,7 @@
 	</properties>
 
 	<build>
-		<finalName>eurake</finalName>
+		<finalName>eureka</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
