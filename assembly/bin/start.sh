@@ -5,7 +5,7 @@ if [ "$USER_NAME" = "root" ];then
     exit 1
 fi
 
-cd "dirname $0" || exit
+cd `dirname $0` || exit
 cd ..
 DEPLOY_DIR=$(pwd)
 
