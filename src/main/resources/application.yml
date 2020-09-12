@@ -7,3 +7,7 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+    # 关闭保护机制
+    enable-self-preservation: false
+    #剔除失效服务间隔（默认60s=60000ms）
+    eviction-interval-timer-in-ms: 120000
